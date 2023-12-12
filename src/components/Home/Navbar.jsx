@@ -24,9 +24,9 @@ const Navbar = () => {
             <FaTimes color='#FF9A62' size='30px' />
           </button>
           <ul className={`md:flex justify-around gap-6 font-sans ${isOpen ? 'block' : 'hidden'} md:block`}>
-            <li className='mb-8'><Link to="/tienda">Tienda</Link></li> 
-            <li className='mb-8'><Link to="/Outlet">Outlet</Link></li>
-            <li className='mb-8'><Link to="/Nosotros">Nosotros</Link></li>
+            <li className='md:mb-0 mb-8'><Link to="/tienda">Tienda</Link></li> 
+            <li className='md:mb-0 mb-8'><Link to="/Outlet">Outlet</Link></li>
+            <li className='md:mb-0 mb-8'><Link to="/Nosotros">Nosotros</Link></li>
           </ul>
         </nav>
 
