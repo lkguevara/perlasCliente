@@ -10,7 +10,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <div className='flex justify-around items-center border-b-2 px-6 py-4 md:p-4 text-orange-400 text-lg font-semibold '>
+    <div className='flex justify-around items-center px-6 py-2 md:p-4 text-orange-400 text-lg font-semibold h-24'>
 
       <div className='flex justify-between items-center'>
         <Link to="/">
@@ -31,7 +31,7 @@ const Navbar = () => {
         </nav>
 
         <div className='order-2 md:order-none'>
-          <input type="text" placeholder='Buscar' className='block md:hidden border-2 border-orange-400 rounded-md px-2 w-40 py-1 mx-auto' />
+          <input type="text" placeholder='Buscar en perla...' className='block md:hidden border-2 border-orange-400 rounded-md px-2 w-40 py-1 mx-auto text-xs font-medium' />
         </div>
       </div>
 
